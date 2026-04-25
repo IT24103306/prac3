@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // Change this URL when your backend is deployed.
-const API_URL = "https://prac3-6nmc.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL + "/api/items";
 
 function App() {
   const [items, setItems] = useState([]);

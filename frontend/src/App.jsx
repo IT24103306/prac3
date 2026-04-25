@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // Change this URL when your backend is deployed.
-const API_URL = "https://prac3-6nmc.onrender.com/api/items";
+const API_URL = "https://prac3-6nmc.onrender.com";
 
 function App() {
   const [items, setItems] = useState([]);
